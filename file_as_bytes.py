@@ -36,3 +36,6 @@ def file_as_bytes(var, var2):
 
 
 file_as_bytes(sys.argv[1], sys.argv[2])
+
+if __name__ == "__main__":
+    file_as_bytes(sys.argv[1], sys.argv[2])
