@@ -32,10 +32,6 @@ def file_as_bytes(var, var2):
                     print(f"{name_file} OK")
                 elif hash_sum != "".join(hash_file):
                     print(f"{name_file} FAIL")
-        return
-
-
-file_as_bytes(sys.argv[1], sys.argv[2])
 
 if __name__ == "__main__":
     file_as_bytes(sys.argv[1], sys.argv[2])
